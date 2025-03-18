@@ -1,1 +1,1 @@
-# sot
+# https://negossolutions.github.io/sot/
