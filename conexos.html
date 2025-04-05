@@ -73,58 +73,78 @@
 <!-- /End Top Header -->
 
 <!-- Start Fables Navigation -->
-<div class="fables-navigation fables-main-background-color py-3 py-lg-0">
+<!-- Estilos para poner el texto de la navbar en blanco -->
+<style>
+  .navbar .nav-link,
+  .navbar .nav-link b {
+    color: white !important;
+    text-shadow: 1px 1px 3px black !important; /* sombra negra */
+  }
+
+  .navbar .nav-link:hover,
+  .navbar .nav-link:hover b {
+    color: white !important;
+    text-shadow: 1px 1px 3px black !important;
+  }
+</style>
+
+
+<div class="fables-transparent py-3 py-lg-0">
   <div class="container">
-             <div class="row">
-                 <div class="col-12 col-md-10 col-lg-9 pr-md-0">                       
-                     <nav class="navbar navbar-expand-md btco-hover-menu py-lg-2">
-       
-                          <a class="navbar-brand pl-0" href="index.html"><img src="assets/custom/images/logo.png" width="85" alt="Fables Template" 
-                          class="fables-logo"></a>
-                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fablesNavDropdown" aria-controls="fablesNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                              <span class="fables-iconmenu-icon text-white font-16"></span>
-                          </button>
-                          <div class="collapse navbar-collapse" id="fablesNavDropdown"> 
+    <div class="row">
+      <div class="col-12 col-md-10 pr-md-0">
+        <nav class="navbar navbar-expand-md btco-hover-menu py-lg-2">
 
-                              <ul class="navbar-nav mx-auto fables-nav">   
-                                  <li class="nav-item dropdown">
-                                      <a class="nav-link" href="index.html" id="sub-nav1" aria-haspopup="true" aria-expanded="false">
-                                          <b>Inicio</b>
-                                  </a>
-                                  
-                              </li>
+          <a class="navbar-brand pl-0" href="index.html">
+            <img src="assets/custom/images/logo.png" width="85" alt="Fables Template" class="fables-logo">
+          </a>
 
-                              <li class="nav-item dropdown" style="display: flex; flex-wrap: nowrap; white-space: nowrap;">
-                                  <a class="nav-link" href="about1.html">
-                                      <b>Sobre Nosotros</b>
-                                  </a>
-                              </li>
-                                  
-                              </li>
-                              <li class="nav-item dropdown" style="display: flex; flex-wrap: nowrap; white-space: nowrap;">
-                                  <a class="nav-link" href="asesoriaCapacitacion.html">
-                                      <b>Asesoría Legal y<br> Capacitación Laboral</b>
-                                  </a>
-                                  
-                              </li>
-                              <li class="nav-item dropdown" style="display: flex; flex-wrap: nowrap; white-space: nowrap;">
-                                  <a class="nav-link" href="conexos.html" id="sub-nav4" aria-haspopup="true" aria-expanded="false">
-                                      <b> Servicios conexos y<br>Gestión de nómina</b>
-                                  </a>
-                              </li>
-                              <li class="nav-item">
-                                  <a class="nav-link" href="contactus1.html" id="sub-nav7" aria-haspopup="true" aria-expanded="false">
-                                      <b>Contacto</b>
-                                      </a>
-                                      
-                                  </li>  
-                              </ul> 
-  
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fablesNavDropdown" aria-controls="fablesNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fables-iconmenu-icon text-white font-16"></span>
+          </button>
 
-                  </div>
-              
+          <div class="collapse navbar-collapse" id="fablesNavDropdown">
+            <ul class="navbar-nav mx-auto fables-nav">
+
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="index.html" id="sub-nav1" aria-haspopup="true" aria-expanded="false">
+                  <b>Inicio</b>
+                </a>
+              </li>
+
+              <li class="nav-item dropdown" style="display: flex; flex-wrap: nowrap; white-space: nowrap;">
+                <a class="nav-link" href="about1.html">
+                  <b>Sobre Nosotros</b>
+                </a>
+              </li>
+
+              <li class="nav-item dropdown" style="display: flex; flex-wrap: nowrap; white-space: nowrap;">
+                <a class="nav-link" href="asesoriaCapacitacion.html">
+                  <b>Asesoría Legal y<br> Capacitación Laboral</b>
+                </a>
+              </li>
+
+              <li class="nav-item dropdown" style="display: flex; flex-wrap: nowrap; white-space: nowrap;">
+                <a class="nav-link" href="conexos.html" id="sub-nav4" aria-haspopup="true" aria-expanded="false">
+                  <b> Servicios conexos y<br>Gestión de nómina</b>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="contactus1.html" id="sub-nav7" aria-haspopup="true" aria-expanded="false">
+                  <b>Contacto</b>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+
+        </nav>
+      </div>
+    </div>
   </div>
-</div> 
+</div>
+
 <!-- /End Fables Navigation --> 
 
 <a href="https://wa.me/+50760990657?text=Hola%2C%20quiero%20más%20información" target="_blank">
@@ -141,30 +161,29 @@
 </a>
 
 <!--Video Section-->
-<section class="content-section video-section">
+<section class="content-section video-section" style="position: relative; min-height: 100vh; overflow: hidden;">
   <div class="pattern-overlay">
-    <video autoplay muted loop playsinline class="background-video" style="width:100%; height:auto; object-fit:cover; position:absolute; top:0; left:0; z-index:-1;">
+    <video autoplay muted loop playsinline class="background-video"
+      style="width: 100%; height: auto; object-fit: contain; position: absolute; top: 0; left: 0; z-index: -1;">
       <source src="assets/custom/images/videoclip.mp4" type="video/mp4">
       Tu navegador no soporta la etiqueta de video.
     </video>
     
-    <div class="container position-relative z-index">
+    <div class="container position-relative" style="z-index: 1;">
       <div class="fables-video-caption text-center wow zoomIn" data-wow-delay="1s" data-wow-duration="2s">
         <h1 class="white-color font-weight-bold mt-6"></h1>  
-        <p class="fables-fifth-text-color mt-3 mb-4 font-18">
-        </p>
-         
+        <p class="fables-fifth-text-color mt-3 mb-4 font-18"></p>
       </div>
     </div>
   </div>
 </section>
+<!--Video Section Ends Here-->
 
 
-<!--Video Section Ends Here--> 
-    
+
      
 <!-- Start page content --> 
-<br><br>
+
 <div class="fables-history-section mb-4 mb-md-5">
   <div class="container">
       <div class="fables-about-head-style">
