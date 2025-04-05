@@ -190,7 +190,7 @@ body{
     background-color: rgba(44, 62, 79, 0);
 }
 .fables-transparent {
-    background-color: rgba(255, 255, 255, 0.5); /* Ajusta el último valor (0.1 - 1) para más o menos transparencia */
+    background-color: rgba(255, 255, 255, 0); /* Ajusta el último valor (0.1 - 1) para más o menos transparencia */
     position: absolute;
     left: 0;
     right: 0;
