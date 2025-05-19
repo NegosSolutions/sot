@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Fables">
+    <meta name="author" content="Enterprise Development">
+    <link rel="shortcut icon" href="../assets/custom/images/icon.svg">
+
+    <title> Servicios Conexos </title>
+    
+    <!-- animate.css-->  
+    <link href="../assets/vendor/animate.css-master/animate.min.css" rel="stylesheet">
+    <!-- Load Screen -->
+    <link href="../assets/vendor/loadscreen/css/spinkit.css" rel="stylesheet">
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <!-- Font Awesome 5 -->
+    <link href="../assets/vendor/fontawesome/css/fontawesome-all.min.css" rel="stylesheet">
+    <!-- Fables Icons -->
+    <link href="../assets/custom/css/fables-icons.css" rel="stylesheet"> 
+    <!-- Bootstrap CSS --> 
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap/css/bootstrap-4-navbar.css" rel="stylesheet">
+    <!-- portfolio filter gallery -->
+    <link href="../assets/vendor/portfolio-filter-gallery/portfolio-filter-gallery.css" rel="stylesheet">
+    <!-- Video Background -->
+    <link href="../assets/vendor/video-background/video-background.css" rel="stylesheet"> 
+    <!-- FANCY BOX -->
+    <link href="../assets/vendor/fancybox-master/jquery.fancybox.min.css" rel="stylesheet"> 
+    <!-- RANGE SLIDER -->
+    <link href="../assets/vendor/range-slider/range-slider.css" rel="stylesheet">
+    <!-- OWL CAROUSEL  --> 
+    <link href="../assets/vendor/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+    <link href="../assets/vendor/owlcarousel/owl.theme.default.min.css" rel="stylesheet">
+    <!-- FABLES CUSTOM CSS FILE -->
+    <link href="../assets/custom/css/custom.css" rel="stylesheet">
+    <!-- FABLES CUSTOM CSS RESPONSIVE FILE -->
+    <link href="../assets/custom/css/custom-responsive.css" rel="stylesheet">
+    <style>
+      /* Por defecto: blanco */
+      .text-white {
+          color: white !important;
+      }
+  
+      /* En móviles: blanco y sin sombra */
+      @media (max-width: 768px) {
+          .text-white {
+              color: white !important;
+              text-shadow: none !important;
+          }
+      }
+  </style>
+</head>
+
+
+<body>
+
+<div class="search-section">
+    <a class="close-search" href="#"></a>
+    <div class="d-flex justify-content-center align-items-center h-100">
+        <form method="post" action="#" class="w-50">
+            <div class="row">
+                <div class="col-10">
+                    <input type="search" value="" class="form-control palce bg-transparent border-0 search-input" placeholder="Search Here ..." /> 
+                </div>
+                <div class="col-2 mt-3">
+                     <button type="submit" class="btn bg-transparent text-white"> <i class="fas fa-search"></i> </button>
+                </div>
+            </div>
+        </form>
+    </div>
+         
+</div>
+
+<!-- Loading Screen -->
+<div id="ju-loading-screen">
+  <div class="sk-double-bounce">
+    <div class="sk-child sk-double-bounce1"></div>
+    <div class="sk-child sk-double-bounce2"></div>
+  </div>
+</div>
+    
+
+ 
+<!-- /End Top Header -->
+
+<!-- Start Fables Navigation -->
+<!-- Estilos para poner el texto de la navbar en blanco -->
+<style>
+  .navbar .nav-link,
+  .navbar .nav-link b {
+    color: white !important;
+    text-shadow: 1px 1px 3px black !important; /* sombra negra */
+  }
+
+  .navbar .nav-link:hover,
+  .navbar .nav-link:hover b {
+    color: white !important;
+    text-shadow: 1px 1px 3px black !important;
+  }
+</style>
+
+
+<div class="fables-transparent py-3 py-lg-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-10 pr-md-0">
+        <nav class="navbar navbar-expand-md btco-hover-menu py-lg-2">
+
+          <a class="navbar-brand pl-0" href="../">
+            <img src="../assets/custom/images/logo.png" width="85" alt="Fables Template" class="fables-logo">
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fablesNavDropdown" aria-controls="fablesNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fables-iconmenu-icon text-white font-16"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="fablesNavDropdown">
+            <ul class="navbar-nav mx-auto fables-nav">
+
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="../" id="sub-nav1" aria-haspopup="true" aria-expanded="false">
+                  <b>Inicio</b>
+                </a>
+              </li>
+
+              <li class="nav-item dropdown" style="display: flex; flex-wrap: nowrap; white-space: nowrap;">
+                <a class="nav-link" href="../nosotros">
+                  <b>Sobre Nosotros</b>
+                </a>
+              </li>
+
+              <li class="nav-item dropdown" style="display: flex; flex-wrap: nowrap; white-space: nowrap;">
+                <a class="nav-link" href="../capacitacion/">
+                  <b>Asesoría Legal y<br> Capacitación Laboral</b>
+                </a>
+              </li>
+
+              <li class="nav-item dropdown" style="display: flex; flex-wrap: nowrap; white-space: nowrap;">
+                <a class="nav-link" href="../servicios/" id="sub-nav4" aria-haspopup="true" aria-expanded="false">
+                  <b> Servicios conexos y<br>Gestión de nómina</b>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../contacto/" id="sub-nav7" aria-haspopup="true" aria-expanded="false">
+                  <b>Contacto</b>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- /End Fables Navigation --> 
+
+<a href="https://wa.me/+50760990657?text=Hola%2C%20quiero%20más%20información" target="_blank">
+  <button class="Btn">
+    <div class="sign">
+      <svg class="socialSvg whatsappSvg" viewBox="0 0 16 16">
+        <path
+          d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
+        ></path>
+      </svg>
+    </div>
+    <div class="text">&nbspWhatsApp&nbsp</div>
+  </button>
+</a>
+
+<!--Video Section-->
+<section class="content-section video-section" style="position: relative; min-height: 100vh; overflow: hidden;">
+  <div class="pattern-overlay">
+    <video id="background-video" autoplay muted loop playsinline class="background-video"
+      style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; z-index: -1;">
+      <!-- Aquí se carga el video por defecto, se cambiará mediante JS -->
+      <source id="video-source" type="video/mp4">
+      Tu navegador no soporta la etiqueta de video.
+    </video>
+    
+    <div class="container position-relative" style="z-index: 1;">
+      <div class="fables-video-caption text-center wow zoomIn" data-wow-delay="1s" data-wow-duration="2s">
+        <h1 class="white-color font-weight-bold mt-6"></h1>  
+        <p class="fables-fifth-text-color mt-3 mb-4 font-18"></p>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Video Section Ends Here-->
+
+<script>
+  // Detectar si el usuario está en un dispositivo móvil o en computadora
+  if (window.innerWidth <= 768) {
+    // Si es móvil, cambiar a videoclipM.mp4
+    document.getElementById('video-source').src = '../assets/custom/images/videoclipM.mp4';
+  } else {
+    // Si es computadora, usar videoclip.mp4
+    document.getElementById('video-source').src = '../assets/custom/images/videoclip.mp4';
+  }
+
+  // Recargar el video para aplicar el cambio
+  document.getElementById('background-video').load();
+</script>
+
+
+
+     
+<!-- Start page content --> 
+
+<div class="fables-history-section mb-4 mb-md-5">
+  <div class="container">
+      <div class="fables-about-head-style">
+           <div class="row wow fadeInDown" data-wow-delay=".5s">
+               <div class="col-12 text-center">
+                   <h3 class="fables-about-top-head fables-forth-text-color font-15 semi-font d-inline-block bg-white position-relative">
+                       <span class="mx-4">&nbsp</span>
+                   </h3>
+                   <h2 class="fables-second-text-color mt-3 font-30 font-weight-bold text-center">Gestión de Nómina</h2> 
+                   <div class="col-12 col-md-10 offset-md-1">
+                       <p class="fables-forth-text-color mt-3 mb-4 mb-md-5">
+                           <strong> Somos una Empresa especializada en el manejo integral de Nómina y Gestión del Talento Humano.</strong>
+                       </p>
+                   </div>
+               </div> 
+           </div>
+       </div>
+       <div class="fables-history-carousel">  
+               <div id="" class="owl-carousel owl-theme">
+               </div>
+                     <div class="item">
+                          <div class="row">
+                              <div class="col-12 col-sm-4 mb-4 mb-md-0">
+                                  <div class="card">
+                                     <img class="card-img-top rounded-0 w-100" src="../assets/custom/images/img2.jpg" alt="Fables Template">
+                                     <div class="card-body">
+                                       <h5 class="card-title fables-second-text-color">Documentos explicativos<br> por pago realizado</h5>
+                                       <p class="card-text fables-forth-text-color d-sm-none d-md-block font-15" style="text-align: justify;"> 
+                                        - Comprobantes de pago<br>
+                                        - Resumen de Horas<br>
+                                        - Acumulados: XIII, Vacaciones e ISR<br>
+                                        - Asignaciones y Deducciones<br>
+                                        - Ausencias x Fondo enfermedad</p> <br><br>
+                                     </div>
+                                   </div>
+                              </div>
+                              <div class="col-12 col-sm-4 mb-4 mb-md-0">
+                                  <div class="card">
+                                     <img class="card-img-top rounded-0 w-100" src="../assets/custom/images/img3.jpg" alt="Fables Template">
+                                     <div class="card-body">
+                                       <h5 class="card-title fables-second-text-color">Tipos de Nóminas</h5>
+                                       <p class="card-text fables-forth-text-color d-sm-none d-md-block font-15" style="text-align: justify;">
+                                        <br>
+                                        - Administrativas: (Compensación – Gastos de representación y demás)<br>
+                                        - De Campo: (Sindicalizado – No sindicalizado)<br>
+                                        - Nóminas Regulares: (quincenales o bisemanales)</p><br>
+                                     </div>
+                                   </div>
+                              </div>
+                              <div class="col-12 col-sm-4 mb-4 mb-md-0">
+                                  <div class="card">
+                                     <img class="card-img-top rounded-0 w-100" src="../assets/custom/images/history-img.jpg" alt="Fables Template">
+                                     <div class="card-body">
+                                       <h5 class="card-title fables-second-text-color">Nóminas extraordinarias y vinculantes</h5>
+                                       <p class="card-text fables-forth-text-color d-sm-none d-md-block font-15" style="text-align: justify;">
+                                        - Liquidación<br>
+                                        - Vacaciones<br>
+                                        - XIII<br>
+                                        - Ajustes<br>
+                                        - Servicios profesionales </p><br><br>
+
+                                     </div>
+                                   </div>
+                              </div>
+                              
+                          </div>
+                     </div>
+               </div>
+       </div>
+  </div>
+</div>
+
+       
+       
+           
+           </div>
+       </div>
+       <div class="fables-testimonial fables-after-overlay fables-about-caption py-5 bg-rules" style="background-image: url(../assets/custom/images/index2-overlay.jpg);">
+           <div class="container">
+               <div class="row">
+                   <div class="position-relative z-index col-12 col-md-8 offset-md-2 text-center wow zoomIn" data-wow-duration="2s"> 
+                           <h3 class=" white-color mb-3 font-25 font-weight-bold">State Of Transition</h3> 
+                           <p class="font-weight-light fables-third-text-color">
+                            Nuestro compromiso es proporcionar soluciones integrales de excelencia, alineadas con las necesidades y expectativas de nuestros clientes, garantizando resultados de calidad excepcional.                           </p>
+                           <a href="../contacto/" class="btn fables-second-background-color white-color white-color-hover fables-btn-rounded  mt-4 py-2 px-5">Contactar</a>   
+                   </div> 
+               </div>
+               
+           </div>
+       </div>
+       
+       
+       <div class="container">
+           <div class="fables-team">
+                <h2 class="font-35 font-weight-bold text-center fables-main-text-color my-3 my-lg-5">Servicios Conexos</h2> 
+                <div class="row overflow-hidden">
+                    <div class="col-6 col-md-3 wow  mb-3">
+                        <div class="card fables-team-block fables-second-hover-text-color">
+                           <div class="image-container shine-effect">
+                               <a href="#"><img class="w-100" src="../assets/custom/images/conexos1.jpg" alt="Fables Template"></a> 
+                           </div>
+                          <div class="card-body">
+                            <h5><a href="#" class="font-19 semi-font fables-main-text-color team-name">Registro financiero</a></h5>
+                            <p class="font-13 fables-fifth-text-color italic my-2"></p> 
+                            
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 wow  mb-3">
+                        <div class="card fables-team-block fables-second-hover-text-color">
+                          <div class="image-container shine-effect">
+                               <a href="#"><img class="w-100" src="../assets/custom/images/conexos2.jpg" alt="Fables Template"></a>
+                           </div>
+                          <div class="card-body">
+                            <h5><a href="#" class="font-19 semi-font fables-main-text-color team-name">Proyección anual</a></h5>
+                            <p class="font-13 fables-fifth-text-color italic my-2"></p> 
+                            
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 wow  mb-3">
+                        <div class="card fables-team-block fables-second-hover-text-color">
+                          <div class="image-container shine-effect">
+                            <a href="#"><img class="w-100" src="../assets/custom/images/conexos3.jpg" alt="Fables Template"></a>
+                        </div>
+                          <div class="card-body">
+                            <h5><a href="#" class="font-19 semi-font fables-main-text-color team-name">Cartas de certificación de ingresos percibidos</a></h5>
+                            <p class="font-13 fables-fifth-text-color italic my-2"></p> 
+                            
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 wow  mb-3">
+                        <div class="card fables-team-block fables-second-hover-text-color">
+                          <div class="image-container shine-effect">
+                            <a href="#"><img class="w-100" src="../assets/custom/images/conexos4.jpg" alt="Fables Template"></a>
+                        </div>
+                          <div class="card-body">
+                            <h5 style="font-size: 17px;"><a href="#" class="semi-font fables-main-text-color team-name">Reportes para aprobación y evaluación contable de la planilla</a></h5>
+                            <p class="font-13 fables-fifth-text-color italic my-2"></p> 
+                            
+                          </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-6 col-md-3 wow  mb-3">
+                        <div class="card fables-team-block fables-second-hover-text-color">
+                          <div class="image-container shine-effect">
+                            <a href="#"><img class="w-100" src="../assets/custom/images/conexos5.jpg" alt="Fables Template"></a>
+                        </div>
+                          <div class="card-body">
+                            <h5><a href="#" class="font-19 semi-font fables-main-text-color team-name">Resumen por planilla, mensual o anual por Conceptos y Categoría</a></h5>
+                            <p class="font-13 fables-fifth-text-color italic my-2"></p> 
+                            
+                          </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-6 col-md-3 wow  mb-3">
+                        <div class="card fables-team-block fables-second-hover-text-color">
+                          <div class="image-container shine-effect">
+                            <a href="#"><img class="w-100" src="../assets/custom/images/conexos6.jpg" alt="Fables Template"></a>
+                        </div>
+                          <div class="card-body">
+                            <h5><a href="#" class="font-19 semi-font fables-main-text-color team-name">SIPE -Preelaborada</a></h5>
+                            <p class="font-13 fables-fifth-text-color italic my-2"></p> 
+                            
+                          </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-6 col-md-3 wow  mb-3">
+                        <div class="card fables-team-block fables-second-hover-text-color">
+                          <div class="image-container shine-effect">
+                            <a href="#"><img class="w-100" src="../assets/custom/images/conexos7.jpg" alt="Fables Template"></a>
+                        </div>
+                          <div class="card-body">
+                            <h5><a href="#" class="font-19 semi-font fables-main-text-color team-name">Acreedores</a></h5>
+                            <p class="font-13 fables-fifth-text-color italic my-2"></p> 
+                            
+                          </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-6 col-md-3 wow  mb-3">
+                        <div class="card fables-team-block fables-second-hover-text-color">
+                          <div class="image-container shine-effect">
+                            <a href="#"><img class="w-100" src="../assets/custom/images/conexos8.jpg" alt="Fables Template"></a>
+                        </div>
+                          <div class="card-body">
+                            <h5><a href="#" class="font-19 semi-font fables-main-text-color team-name">Asiento Contable</a></h5>
+                            <p class="font-13 fables-fifth-text-color italic my-2"></p> 
+                            
+                          </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-6 col-md-3 wow  mb-3">
+                        <div class="card fables-team-block fables-second-hover-text-color">
+                          <div class="image-container shine-effect">
+                            <a href="#"><img class="w-100" src="../assets/custom/images/conexos9.jpg" alt="Fables Template"></a>
+                        </div>
+                          <div class="card-body">
+                            <h5><a href="#" class="font-19 semi-font fables-main-text-color team-name">Impresión de Pre planilla para cotejo de asistencia</a></h5>
+                            <p class="font-13 fables-fifth-text-color italic my-2"></p> 
+                            
+                          </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-6 col-md-3 wow  mb-3">
+                        <div class="card fables-team-block fables-second-hover-text-color">
+                          <div class="image-container shine-effect">
+                            <a href="#"><img class="w-100" src="../assets/custom/images/conexos10.jpg" alt="Fables Template"></a>
+                        </div>
+                          <div class="card-body">
+                            <h5><a href="#" class="font-19 semi-font fables-main-text-color team-name">Marcaciones digitales</a></h5>
+                            <p class="font-13 fables-fifth-text-color italic my-2"></p> 
+                            
+                          </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-6 col-md-3 wow  mb-3">
+                        <div class="card fables-team-block fables-second-hover-text-color">
+                          <div class="image-container shine-effect">
+                            <a href="#"><img class="w-100" src="../assets/custom/images/conexos11.jpg" alt="Fables Template"></a>
+                        </div>
+                          <div class="card-body">
+                            <h5><a href="#" class="font-19 semi-font fables-main-text-color team-name">Exportaciones a Excel</a></h5>
+                            <p class="font-13 fables-fifth-text-color italic my-2"></p> 
+                            
+                          </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-6 col-md-3 wow  mb-3">
+                        <div class="card fables-team-block fables-second-hover-text-color">
+                          <div class="image-container shine-effect">
+                            <a href="#"><img class="w-100" src="../assets/custom/images/conexos12.jpg" alt="Fables Template"></a>
+                        </div>
+                          <div class="card-body">
+                            <h5><a href="#" class="font-19 semi-font fables-main-text-color team-name">Planilla 03</a></h5>
+                            <p class="font-13 fables-fifth-text-color italic my-2"></p> 
+                            
+                          </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-6 col-md-3 wow  mb-3" data-wow-duration="2s" data-wow-delay="1.0s">
+                        <div class="card fables-team-block fables-second-hover-text-color">
+                          <div class="image-container shine-effect">
+                            <a href="#"><img class="w-100" src="../assets/custom/images/conexos14.jpg" alt="Fables Template"></a>
+                           </div>
+                          <div class="card-body">
+                            <h5><a href="#" class="font-19 semi-font fables-main-text-color team-name">Carnes categorizado por colaborador </a></h5>
+                            <p class="font-13 fables-fifth-text-color italic my-2">(Administrativo, campo,
+                              Subcontratistas, otros)</p> 
+                            
+                          </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-6 col-md-3 wow  mb-3" data-wow-duration="2s" data-wow-delay="1.0s">
+                        <div class="card fables-team-block fables-second-hover-text-color">
+                          <div class="image-container shine-effect">
+                            <a href="#"><img class="w-100" src="../assets/custom/images/conexos15.jpg" alt="Fables Template"></a>
+                           </div>
+                          <div class="card-body">
+                            <h5><a href="#" class="font-19 semi-font fables-main-text-color team-name">Módulo de Gestión de RRHH</a></h5>
+                            <p class="font-13 fables-fifth-text-color italic my-2"></p> 
+                            
+                          </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-6 col-md-3 wow  mb-3" data-wow-duration="2s" data-wow-delay="1.0s">
+                        <div class="card fables-team-block fables-second-hover-text-color">
+                          <div class="image-container shine-effect">
+                            <a href="#"><img class="w-100" src="../assets/custom/images/conexos16.jpg" alt="Fables Template"></a>
+                           </div>
+                          <div class="card-body">
+                            <h5><a href="#" class="font-19 semi-font fables-main-text-color team-name">Captación de recurso</a></h5>
+                            <p class="font-13 fables-fifth-text-color italic my-2"></p> 
+                            
+                          </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-6 col-md-3 wow  mb-3" data-wow-duration="2s" data-wow-delay="1.2s">
+                        <div class="card fables-team-block fables-second-hover-text-color">
+                          <div class="image-container shine-effect">
+                            <a href="#"><img class="w-100" src="../assets/custom/images/conexos17.jpg" alt="Fables Template"></a>
+                           </div>
+                          <div class="card-body">
+                            <h5><a href="#" class="font-19 semi-font fables-main-text-color team-name">Análisis del RH</a></h5>
+                            <p class="font-13 fables-fifth-text-color italic my-2"></p> 
+                            
+                          </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-6 col-md-3 wow  mb-3" data-wow-duration="2s" data-wow-delay="1.2s">
+                        <div class="card fables-team-block fables-second-hover-text-color">
+                          <div class="image-container shine-effect">
+                            <a href="#"><img class="w-100" src="../assets/custom/images/conexos18.jpg" alt="Fables Template"></a>
+                           </div>
+                          <div class="card-body">
+                            <h5><a href="#" class="font-19 semi-font fables-main-text-color team-name">Historial Personal del Trabajador (Dependientes, Tallas de
+                                uniformes, Dirección, Enfermedades, etc.)</a></h5>
+                            <p class="font-13 fables-fifth-text-color italic my-2"></p> 
+                            
+                          </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-6 col-md-3 wow  mb-3" data-wow-duration="2s" data-wow-delay="1.2s">
+                        <div class="card fables-team-block fables-second-hover-text-color">
+                          <div class="image-container shine-effect">
+                            <a href="#"><img class="w-100" src="../assets/custom/images/conexos19.jpg" alt="Fables Template"></a>
+                           </div>
+                          <div class="card-body">
+                            <h5><a href="#" class="font-19 semi-font fables-main-text-color team-name">Confección de Contratos, cartas de trabajo y otros en
+                                Masa o individual</a></h5>
+                            <p class="font-13 fables-fifth-text-color italic my-2"></p> 
+                            
+                          </div>
+                        </div>
+                        
+                    </div>
+                </div>  
+               
+         </div> 
+       </div>
+       
+       <div class="fables-choose-background fables-after-overlay py-4 py-md-5 bg-rules overflow-hidden px-3 px-md-0">
+        <div class="container position-relative z-index">
+          <div class="row">
+             <div class="col-12 col-lg-6 p-0 image-container translate-effect-right wow  mb-3 mb-md-0" data-wow-delay="1s" data-wow-duration="1.5s">
+                 <img src="../assets/custom/images/choose-img.jpg" alt="" class="w-100">
+             </div>
+             <div class="col-12 col-lg-6 bg-white px-6 py-3 py-md-5 wow " data-wow-delay="1s" data-wow-duration="1.5s">
+                 <h2 class="font-30 font-weight-bold fables-second-text-color">Servicios Conexos</h2>
+                 <p class="fables-main-text-color font-14 my-3">                 </p>
+                 <div id="accordion">
+                       <div class="card border-0 mb-2">
+                         <div class="card-header p-0 border bg-transparent rounded-0" id="headingOne">
+                           <h5 class="mb-0 position-relative">
+                             <span class="fables-second-background-color white-color d-inline-block 
+position-absolute fables-lus-icon pt-2 text-center">
+                                 <i class="fas fa-plus"></i>  
+                             </span>
+                             <button class="btn fables-main-text-color bg-transparent font-18 focus-0 d-block position-relative z-index pl-6 pt-2 pb-2 w-100 text-left border-0 text-truncate" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Asesoría Especializada en<br> Normativa Laboral</button>
+                           </h5>
+                         </div>
+
+                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                           <div class="card-body fables-forth-text-color font-14 py-1 py-xl-2 pl-6 pr-0" style="text-align: justify;">
+                            Asesoramiento continuo sobre las leyes laborales vigentes, reformas y aplicación . Esto incluye interpretación de la normativa relacionada con
+                            contratos de trabajo, jornada laboral, descansos, salario, entre otros.
+                            Aseguramos que su empresa cumpla con todos los requisitos legales y evite sanciones o multas por incumplimientos normativos</div>
+                         </div>
+                       </div>
+                       <div class="card border-0 mb-2">
+                         <div class="card-header bg-transparent p-0 border rounded-0" id="headingTwo">
+                           <h5 class="mb-0 position-relative">
+                             <span class="fables-second-background-color white-color d-inline-block 
+position-absolute fables-lus-icon pt-2 text-center">
+                                 <i class="fas fa-plus"></i>  
+                             </span>
+                             <button class="btn fables-main-text-color bg-transparent font-18 focus-0 d-block position-relative z-index pl-6 pt-2 pb-2 w-100 text-left border-0 text-truncate collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Elaboración y Revisión <br>de Contratos Laborales
+                             </button>
+                           </h5>
+                         </div>
+                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                           <div class="card-body fables-forth-text-color font-14 py-1 py-xl-2 pl-6 pr-0" style="text-align: justify;">
+                            Redacción y revisión de contratos de trabajo, adaptados a las necesidades de cada puesto y a las condiciones legales aplicables, incluyendo la
+inclusión de cláusulas de confidencialidad, no competencia, entre otras.
+Garantizamos que los contratos sean claros, completos y conformes a la legislación, protegiendo tanto a la empresa como a los empleados</div>
+                         </div>
+                       </div>
+                       <div class="card border-0 mb-2">
+                         <div class="card-header p-0 border bg-transparent rounded-0" id="headingThree">
+                           <h5 class="mb-0 position-relative">
+                             <span class="fables-second-background-color white-color d-inline-block 
+position-absolute fables-lus-icon pt-2 text-center">
+                                 <i class="fas fa-plus"></i>  
+                             </span>
+                             <button class="btn fables-main-text-color bg-transparent font-18 focus-0 d-block position-relative z-index pl-6 pt-2 pb-2 w-100 text-left border-0 text-truncate collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Gestión de Despidos y <br>Terminación de Contratos
+                             </button>
+                           </h5>
+                         </div>
+                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                           <div class="card-body fables-forth-text-color font-14 py-1 py-xl-2 pl-6 pr-0" style="text-align: justify;">
+                            Asesoría legal en procesos de terminación de contratos, despidos, liquidaciones y negociaciones de indemnizaciones. También incluimos la
+preparación de los documentos necesarios para evitar litigios laborales.
+ Minimización de riesgos y costes derivados de despidos injustificados o incorrectos, protegiendo los intereses legales de la empresa.</div>
+                         </div>
+                       </div>
+                       <div class="card border-0 mb-2">
+                        <div class="card-header bg-transparent p-0 border rounded-0" id="headingFour">
+                          <h5 class="mb-0 position-relative">
+                            <span class="fables-second-background-color white-color d-inline-block 
+position-absolute fables-lus-icon pt-2 text-center">
+                                <i class="fas fa-plus"></i>  
+                            </span>
+                            <button class="btn fables-main-text-color bg-transparent font-18 focus-0 d-block position-relative z-index pl-6 pt-2 pb-2 w-100 text-left border-0 text-truncate collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Mediación y Resolución <br>de Conflictos Laborales
+                            </button>
+                          </h5>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                          <div class="card-body fables-forth-text-color font-14 py-1 py-xl-2 pl-6 pr-0" style="text-align: justify;">
+                            Intervención en la resolución de conflictos laborales mediante la mediación, negociación y establecimiento de acuerdos entre la empresa y los
+                            empleados o sindicatos.
+                            Favorece un ambiente laboral armonioso y evita la judicialización de conflictos, lo que ahorra tiempo y recursos.
+                            </div>
+                        </div>
+                        <div class="card border-0 mb-2">
+                            <div class="card-header bg-transparent p-0 border rounded-0" id="headingFive">
+                              <h5 class="mb-0 position-relative">
+                                <span class="fables-second-background-color white-color d-inline-block 
+    position-absolute fables-lus-icon pt-2 text-center">
+                                    <i class="fas fa-plus"></i>  
+                                </span>
+                                <button class="btn fables-main-text-color bg-transparent font-18 focus-0 d-block position-relative z-index pl-6 pt-2 pb-2 w-100 text-left border-0 text-truncate collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Auditorías Laborales<br><br>
+                                </button>
+                              </h5>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                              <div class="card-body fables-forth-text-color font-14 py-1 py-xl-2 pl-6 pr-0" style="text-align: justify;">
+                                Revisión detallada de la situación laboral de la empresa mediante auditorías internas que analizan las relaciones laborales, la documentación, el
+                                cumplimiento de los derechos de los trabajadores y las obligaciones patronales.
+                                Permite identificar áreas de mejora y corregir posibles fallos en el cumplimiento de la normativa laboral antes que se conviertan en problemas legales.
+                                </div>
+                            </div>
+                            <div class="card border-0 mb-2">
+                                <div class="card-header bg-transparent p-0 border rounded-0" id="headingSix">
+                                  <h5 class="mb-0 position-relative">
+                                    <span class="fables-second-background-color white-color d-inline-block 
+        position-absolute fables-lus-icon pt-2 text-center">
+                                        <i class="fas fa-plus"></i>  
+                                    </span>
+                                    <button class="btn fables-main-text-color bg-transparent font-18 focus-0 d-block position-relative z-index pl-6 pt-2 pb-2 w-100 text-left border-0 text-truncate collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        Capacitación en Derecho Laboral<br> para Ejecutivos y Recursos Humanos
+                                    </button>
+                                  </h5>
+                                </div>
+                                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                                  <div class="card-body fables-forth-text-color font-14 py-1 py-xl-2 pl-6 pr-0" style="text-align: justify;">
+                                    Programas de capacitación destinados a la formación de ejecutivos y personal del departamento de recursos humanos sobre la legislación laboral,
+buenas prácticas, prevención de riesgos y cómo gestionar las relaciones laborales con eficacia.
+Aumenta el conocimiento interno sobre temas laborales, reduciendo la probabilidad de conflictos y asegurando el cumplimiento normativo desde
+todos los niveles de la empresa.
+                                    </div>
+                                </div>
+                                <div class="card border-0 mb-2">
+                                    <div class="card-header bg-transparent p-0 border rounded-0" id="headingSeven">
+                                      <h5 class="mb-0 position-relative">
+                                        <span class="fables-second-background-color white-color d-inline-block 
+            position-absolute fables-lus-icon pt-2 text-center">
+                                            <i class="fas fa-plus"></i>  
+                                        </span>
+                                        <button class="btn fables-main-text-color bg-transparent font-18 focus-0 d-block position-relative z-index pl-6 pt-2 pb-2 w-100 text-left border-0 text-truncate collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                            Asesoramiento en Seguridad Social<br> y Previsión Social
+                                        </button>
+                                      </h5>
+                                    </div>
+                                    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                                      <div class="card-body fables-forth-text-color font-14 py-1 py-xl-2 pl-6 pr-0" style="text-align: justify;">
+                                        Asesoría en el cumplimiento de las obligaciones ante la seguridad social, incluyendo afiliación, cotización y prestaciones. También proporcionamos
+orientación sobre planes de pensiones, seguros y otros beneficios laborales.
+Garantiza que la empresa cumpla con sus responsabilidades de forma efectiva, reduciendo riesgos y optimizando el beneficio para los empleados.
+                                        </div>
+                                    </div>
+                                    <div class="card border-0 mb-2">
+                                        <div class="card-header bg-transparent p-0 border rounded-0" id="headingEight">
+                                          <h5 class="mb-0 position-relative">
+                                            <span class="fables-second-background-color white-color d-inline-block 
+                position-absolute fables-lus-icon pt-2 text-center">
+                                                <i class="fas fa-plus"></i>  
+                                            </span>
+                                            <button class="btn fables-main-text-color bg-transparent font-18 focus-0 d-block position-relative z-index pl-6 pt-2 pb-2 w-100 text-left border-0 text-truncate collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                                Defensa en Litigios Laborales<br><br>
+                                            </button>
+                                          </h5>
+                                        </div>
+                                        <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+                                          <div class="card-body fables-forth-text-color font-14 py-1 py-xl-2 pl-6 pr-0" style="text-align: justify;">
+                                            Representación legal en juicios y litigios laborales, defendiendo los intereses de la empresa frente a reclamaciones de los empleados ante autoridades
+judiciales o administrativas.
+Protege los intereses de la empresa y proporciona una defensa sólida ante disputas legales.
+                                            </div>
+                                        </div>
+                      </div>
+                       
+                       </div>
+                     </div>
+             </div>
+          </div>
+
+        </div>
+    </div>
+      
+<!-- /End page content -->
+    
+<!-- Start Footer 2 Background Image  -->
+<div class="fables-footer-image fables-after-overlay white-color py-4 py-lg-5 bg-rules">
+    <div class="container">
+        <div class="row">
+           <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3 mt-2 mb-5 text-center">
+                <h2 class="font-30 semi-font mb-5">Noticias</h2>
+                <form class="form-inline position-relative"> 
+                  <div class="form-group fables-subscribe-formgroup"> 
+                    <input type="email" class="form-control fables-subscribe-input fables-btn-rouned" placeholder="Email">
+                  </div>
+                  <button type="submit" class="btn fables-second-background-color fables-btn-rouned fables-subscribe-btn">Suscribirse</button>
+                </form>
+                
+            </div>
+            <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+                <a href="../" class="fables-second-border-color border-bottom pb-3 d-block mb-3 mt-minus-13"><img src="../assets/custom/images/logoW.png" width="95" alt="fables template"></a>
+                <p class="font-15 fables-third-text-color" style="text-align: justify;">
+                    Nuestro compromiso es proporcionar soluciones integrales de
+excelencia, alineadas con las necesidades y expectativas de nuestros
+clientes, garantizando resultados de calidad excepcional.<br><br>
+
+Este portafolio de servicios refleja nuestra capacidad de ofrecer un
+abanico de soluciones adaptadas a diversos sectores. Contamos con
+un equipo técnico altamente especializado en la gestión de planillas
+para: Micro, Pequeñas y Medianas Empresas, así como para Mega
+proyectos sindicalizados, respaldo jurídico en asuntos laborales,
+tanto en el ámbito contractual como en las diligencias ante el
+MITRADEL, y una sólida experiencia en la captación y selección de
+talento humano.<br><br>
+
+La versatilidad de nuestros servicios nos permite atender de manera
+efectiva tanto a clientes del sector público como privado,
+gestionando proyectos de gran envergadura y alta complejidad,
+siempre con un enfoque en la excelencia operativa.</p>  
+                
+            </div>
+             
+            <div class="col-12 col-sm-6 col-lg-4">
+                <h2 class="font-20 semi-font fables-second-border-color border-bottom pb-3">Contáctenos</h2>
+               <div class="my-3">
+                    <h4 class="font-16 semi-font"><span class="fables-iconmap-icon fables-second-text-color pr-2 font-20 mt-1 d-inline-block"></span> Ubicación</h4>
+                    <p class="font-14 fables-fifth-text-color mt-2 ml-4">Panamá</p>
+                </div>
+                <div class="my-3">
+                    <h4 class="font-16 semi-font"><span class="fables-iconphone fables-second-text-color pr-2 font-20 mt-1 d-inline-block"></span> Llámenos</h4>
+                    <p class="font-14 fables-fifth-text-color mt-2 ml-4">+507 6099-0657</p>
+                </div>
+                <div class="my-3">
+                    <h4 class="font-16 semi-font"><span class="fables-iconemail fables-second-text-color pr-2 font-20 mt-1 d-inline-block"></span>Email </h4>
+                    <p class="font-14 fables-fifth-text-color mt-2 ml-4">dramsdell@empresassot.com</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+                <h2 class="font-20 semi-font fables-second-border-color border-bottom pb-3 mb-3">NUESTRO SITIO</h2>
+                <ul class="nav fables-footer-links">
+                    <li><a href="../nosotros">Nosotros</a></li>
+                    <li><a href="../contacto/">Contacto</a></li>
+                    <li><a href="../nosotros">Equipo</a></li>
+                    <li><a href="../servicios/">Servicios</a></li>
+                    <li><a href="../capacitacion/">Asesorías</a></li>
+                    <li><a href="https://negossolutions.github.io/astropages/esindex.html">ᗩᔕ༒尺۝</a></li>
+                </ul>
+            </div>
+                      
+        </div> 
+        
+        </div>
+</div>
+<div class="copyright fables-main-background-color mt-0 border-0 " style="color:white;">
+        <ul class="nav fables-footer-social-links just-center fables-light-footer-links">
+            <li><a href="mailto:dramsdell@empresassot.com" target="_blank"><i class="fab fa-google-plus-square"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-pinterest-square"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/s-o-t/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+</div>
+    
+<!-- /End Footer 2 Background Image -->
+
+
+<script src="../assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+<script src="../assets/vendor/timeline/jquery.timelify.js"></script>
+<script src="../assets/vendor/loadscreen/js/ju-loading-screen.js"></script>
+<script src="../assets/vendor/jquery-circle-progress/circle-progress.min.js"></script>
+<script src="../assets/vendor/popper/popper.min.js"></script>
+<script src="../assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="../assets/vendor/bootstrap/js/bootstrap-4-navbar.js"></script>
+<script src="../assets/vendor/owlcarousel/owl.carousel.min.js"></script> 
+<script src="../assets/vendor/fancybox-master/jquery.fancybox.min.js"></script>
+<script src="../assets/vendor/video-background/jquery.mb.YTPlayer.js"></script>
+<script src="../assets/vendor/WOW-master/dist/wow.min.js"></script>
+<script src="../assets/custom/js/custom.js"></script>  
+<script>
+     $(".player").mb_YTPlayer();
+    
+</script>
+    
+</body>
+</html>
