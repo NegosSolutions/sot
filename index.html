@@ -96,6 +96,42 @@
     </div>
 </nav>
 
+<style>
+
+/* Por defecto (móvil y tablet) */
+.navbar-nav .nav-link {
+    font-size: 16px !important; /* tamaño normal para móvil */
+}
+
+/* En pantallas medianas hacia arriba (PC) */
+@media (min-width: 768px) {
+    .navbar-nav .nav-link {
+        font-size: 14px !important; /* más pequeño en PC */
+    }
+}
+
+/* En pantallas grandes */
+@media (min-width: 1270px) {
+    .navbar-nav .nav-link {
+        font-size: 12px !important; /* aún más pequeño en pantallas grandes */
+    }
+}
+
+.navbar-nav {
+    display: flex !important;
+    flex-wrap: wrap !important; /* permite que los items bajen si no caben */
+    justify-content: center !important; /* centra horizontalmente */
+}
+
+.navbar-nav .nav-item {
+    flex: 0 1 auto !important; /* evita que cada item ocupe demasiado espacio */
+    white-space: normal !important; /* permite que el texto se ajuste */
+    text-align: center !important;
+}
+
+
+</style>
+
                </div>
                
            </div>
